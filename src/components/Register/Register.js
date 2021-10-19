@@ -31,7 +31,7 @@ const Register = () => {
 
   return (
     <div className="py-5 d-flex justify-content-center align-items-center">
-      <div className="py-5 text-center">
+      <div className="py-5 px-4 text-center shadow rounded-3">
         <h4 className="mb-3 text-primary">Please Register</h4>
         <div className="row mb-3">{error}</div>
         <div>
@@ -66,7 +66,7 @@ const Register = () => {
           Already have an account? <NavLink to="/login">Login</NavLink>
         </span>
         <div>------or-------</div>
-        <button onClick={signInWithGoogle} className="btn btn-secondary">
+        <button onClick={signInWithGoogle} className="btn btn-secondary mt-2">
           Google Sign-In
         </button>
       </div>

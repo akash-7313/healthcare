@@ -20,6 +20,23 @@ const Footer = () => {
                 complete physical, mental and social well-being and not merely
                 the absence of disease or infirmity.”
               </p>
+              <div className="mb-3">
+                <a className="me-3" href="/fb">
+                  <i className="fab fa-facebook-square"></i>
+                </a>
+                <a className="me-3" href="/tw">
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <a className="me-3" href="/ln">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+                <a className="me-3" href="/in">
+                  <i className="fab fa-instagram-square"></i>
+                </a>
+                <a className="me-3" href="/pn">
+                  <i className="fab fa-pinterest-square"></i>
+                </a>
+              </div>
             </div>
             <div className="col-md-3 col-12 text-center mb-3">
               <h5 className="text-primary fw-normal">Usefull links</h5>
