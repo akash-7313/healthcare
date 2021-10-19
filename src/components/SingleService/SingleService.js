@@ -21,10 +21,15 @@ const SingleService = () => {
 
   return (
     <div>
-      <Row xs={1} md={1} className="g-4 container mx-auto mt-3 w-50">
+      <Row xs={1} md={3} className="g-4 container mx-auto mt-3">
+        <Col></Col>
         <Col>
           <Card>
-            <Card.Img variant="top" className="img-fluid" src={matchedResult?.image} />
+            <Card.Img
+              variant="top"
+              className="img-fluid"
+              src={matchedResult?.image}
+            />
             <Card.Body>
               <Card.Title>{matchedResult?.serviceName}</Card.Title>
               <Card.Text className="text-primary">
@@ -36,6 +41,7 @@ const SingleService = () => {
             </Card.Body>
           </Card>
         </Col>
+        <Col></Col>
       </Row>
     </div>
   );

@@ -14,7 +14,7 @@ const Header = () => {
     cursor: "pointer",
   };
   return (
-    <Navbar bg="dark" sticky="top" expand="lg" variant="light">
+    <Navbar bg="dark" sticky="top" expand="lg" variant="dark">
       <Container>
         <Navbar.Brand>
           <span style={logo} className="name me-3 fs-3">
@@ -30,28 +30,30 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <NavLink
-              className="text-decoration-none me-4 text-primary py-2"
+              className="text-decoration-none me-4 text-white py-2"
               exact
               to="/home"
             >
               Home
             </NavLink>
             <NavLink
-              className="text-decoration-none me-4 text-primary py-2"
-              exact
-              to="/about"
-            >
-              About
-            </NavLink>
-            <NavLink
-              className="text-decoration-none me-4 text-primary py-2"
+              className="text-decoration-none me-4 text-white py-2"
               exact
               to="/blog"
             >
               Blogs
             </NavLink>
+            <NavLink
+              className="text-decoration-none me-4 text-white py-2"
+              exact
+              to="/about"
+            >
+              About
+            </NavLink>
             {user?.email && (
-              <Navbar.Text className="pe-2 text-white">{user?.displayName}</Navbar.Text>
+              <Navbar.Text className="pe-3 text-light">
+                {user?.displayName}
+              </Navbar.Text>
             )}
             {user?.email ? (
               <button
@@ -63,7 +65,7 @@ const Header = () => {
             ) : (
               <div>
                 <NavLink
-                  className="text-decoration-none me-4 text-primary py-2"
+                  className="text-decoration-none me-4 text-white py-2"
                   exact
                   to="/login"
                 >

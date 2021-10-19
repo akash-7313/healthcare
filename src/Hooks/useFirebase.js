@@ -27,6 +27,7 @@ const useFirebase = () => {
     signInWithPopup(auth, googleProvider)
       .then((result) => {
         setUser(result.user);
+        setError("")
         // console.log(result.user);
       })
       .catch((error) => {
@@ -53,6 +54,7 @@ const useFirebase = () => {
     signOut(auth)
       .then(() => {
         setUser({});
+        setError("");
       })
       .catch((error) => {
         setError(error.message);
@@ -66,7 +68,9 @@ const useFirebase = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
         setUser(result.user);
-        console.log(result.user);
+        
+        // console.log(result.user);
+        setError("");
       })
       .catch((error) => {
         setError(error.message);
@@ -79,6 +83,7 @@ const useFirebase = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((result) => {
         setUser(result.user);
+        setError("");
         // console.log(result.user);
       })
       .catch((error) => {
@@ -92,13 +97,16 @@ const useFirebase = () => {
     updateProfile(auth.currentUser, {
       displayName: userName,
     })
-      .then(() => {
+      .then((result) => {
+        console.log(result.user);
         // Profile updated!
       })
       .catch((error) => {
+        console.log(error.message)
         // An error occurred
       });
   }
+
 
   return {
     signInWithGoogle,

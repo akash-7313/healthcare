@@ -3,7 +3,7 @@ import { Card, Col, Row } from "react-bootstrap";
 
 const About = () => {
   return (
-    <div className="container mt-3">
+    <div className="container mt-5">
       <div className="text-center">
         <h2 className="text-primary opacity-75">Our Speciality</h2>
         <p className="text-muted">
