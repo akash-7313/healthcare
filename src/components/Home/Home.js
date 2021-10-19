@@ -8,7 +8,7 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <div>
         <Row xs={1} md={2} className="g-4 bg-img py-5">
           <Col className="d-flex align-items-center ps-5 py-5">
