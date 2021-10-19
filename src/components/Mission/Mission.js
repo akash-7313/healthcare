@@ -26,8 +26,10 @@ const Mission = () => {
                       Our Mission
                     </Card.Title>
                     <Card.Text className="ps-5">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Necessitatibus, ipsam. Nihil voluptatem quo corrupti ab!
+                      Living a healthy lifestyle can help prevent chronic
+                      diseases and long-term illnesses. Living a healthy
+                      lifestyle can help prevent chronic diseases and long-term
+                      illnesses.
                     </Card.Text>
                   </Card.Body>
                 </Col>
@@ -40,8 +42,10 @@ const Mission = () => {
                       Who we are
                     </Card.Title>
                     <Card.Text className="ps-5">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Necessitatibus, ipsam. Nihil voluptatem quo corrupti ab!
+                      Living a healthy lifestyle can help prevent chronic
+                      diseases and long-term illnesses. Living a healthy
+                      lifestyle can help prevent chronic diseases and long-term
+                      illnesses.
                     </Card.Text>
                   </Card.Body>
                 </Col>
@@ -54,8 +58,10 @@ const Mission = () => {
                       Our Vission
                     </Card.Title>
                     <Card.Text className="ps-5">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Necessitatibus, ipsam. Nihil voluptatem quo corrupti ab!
+                      Living a healthy lifestyle can help prevent chronic
+                      diseases and long-term illnesses. Living a healthy
+                      lifestyle can help prevent chronic diseases and long-term
+                      illnesses.
                     </Card.Text>
                   </Card.Body>
                 </Col>
