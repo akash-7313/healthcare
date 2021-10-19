@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.postimg.cc/kGqnQqDh/children.jpg",
+    "doctorName": "Dr. Sayma Akbar",
+    "serviceName": "CHILD CARE",
+    "description": "High-quality child care keeps children safe and healthy. It helps children develop skills they will need for success in school and in their lives outside of school: Social, emotional and communication skills."
+  },
+  {
+    "id": 2,
+    "image": "https://i.postimg.cc/ryNy80P6/eye.jpg",
+    "doctorName": "Dr. Salma Rouf",
+    "serviceName": "EYE CARE CLINIC",
+    "description": "High-quality child care keeps children safe and healthy. It helps children develop skills they will need for success in school and in their lives outside of school: Social, emotional and communication skills."
+  },
+  {
+    "id": 3,
+    "image": "https://i.postimg.cc/Dyfvmv9S/pharamacy.jpg",
+    "doctorName": "Dr. Karim Beg",
+    "serviceName": "PHARAMACY",
+    "description": "High-quality child care keeps children safe and healthy. It helps children develop skills they will need for success in school and in their lives outside of school: Social, emotional and communication skills."
+  },
+  {
+    "id": 4,
+    "image": "https://i.postimg.cc/nzvF9CVD/mother.jpg",
+    "doctorName": "Dr. Amena Majid",
+    "serviceName": "MOTHER'S HEALTH",
+    "description": "High-quality child care keeps children safe and healthy. It helps children develop skills they will need for success in school and in their lives outside of school: Social, emotional and communication skills."
+  },
+  {
+    "id": 5,
+    "image": "https://i.postimg.cc/V6ysNjww/cardiology.jpg",
+    "doctorName": "Dr. Golam Kibria",
+    "serviceName": "CARDIAC HEALTH",
+    "description": "High-quality child care keeps children safe and healthy. It helps children develop skills they will need for success in school and in their lives outside of school: Social, emotional and communication skills."
+  },
+  {
+    "id": 6,
+    "image": "https://i.postimg.cc/C57wJXqM/neuro.jpg",
+    "doctorName": "Dr. Fazlul Hoque",
+    "serviceName": "NEURON'S HEALTH",
+    "description": "High-quality child care keeps children safe and healthy. It helps children develop skills they will need for success in school and in their lives outside of school: Social, emotional and communication skills."
+  }
+]

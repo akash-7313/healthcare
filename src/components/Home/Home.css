@@ -1,0 +1,7 @@
+.bg-img {
+  background-image: linear-gradient(to bottom, #f5f6fc1c, #75135dba),
+    url("../../images/banner/bg1.jpg");
+    height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
